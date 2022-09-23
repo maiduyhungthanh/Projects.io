@@ -71,34 +71,14 @@ Java hỗ trợ chạy trên rất nhiều nên tảng như: Windows,Mac OS,Linu
     + Stack: bởi vì bộ nhớ Stack cố định nên nếu chương trình bạn sử dụng quá nhiều bộ nhớ vượt quá khả năng lưu trữ của Stack chắc chắn sẽ xảy ra tình trạng tràn bộ nhớ Stack (Stack overflow), các trường hợp xảy ra như bạn khởi tạo quá nhiều biến cục bộ, hàm đệ quy vô hạn,...
     + Heap: Nếu bạn liên tục cấp phát vùng nhớ mà không giải phóng thì sẽ bị lỗi tràn vùng nhớ Heap (Heap overflow).
     + Nếu bạn khởi tạo một vùng nhớ quá lớn mà vùng nhớ Heap không thể lưu trữ một lần được sẽ bị lỗi khởi tạo vùng nhớ Heap thất bại.
-## 11. Join trong SQL
-- INNER JOIN (Hoặc JOIN)
-- LEFT OUTER JOIN (Hoặc LEFT JOIN)
-- RIGHT OUTER JOIN (Hoặc RIGHT JOIN)
-- FULL OUTER JOIN (Hoặc OUTER JOIN)
-- Ví Dụ Cấu Trúc Câu Lệnh:
-    ```SQL
-    Select * from lanptp.khach_hang as KH Join lanptp.order_kh as OD on KH.MaKH= OD.MaKH
-    ```
-    + Trong đó: 
-        +   lanptp :tên data    
-        +   khach_hang: table trái
-        +   order_kh:  table phải
 
-## 12. Cấu trúc câu lệnh Select trong SQL
-- Cú pháp câu lệnh SELECT:
-    ```SQL
-    SELECT <tên cột | biểu thức> [ ,…]<br>
-    [ FROM <tên bảng> [ ,…] ]<br>
-    [ WHERE <điều kiện logic trên dòng / bộ> ]<br>
-    [GROUP BY <các thuộc tính gom nhóm> ]<br>
-    [HAVING <điều kiện logic gom nhóm> ]<br>
-    [ ORDER BY <các thuộc tính sắp xếp> ]<br>
-    ```
-## 13. Spring IoC
+## 11. Spring IoC
 - Spring container sử dụng DI để quản lý các thành phần, đối tượng để tạo nên 1 ứng dụng. Các thành phần, đối tượng này gọi là Spring Bean. Để tạo đối tượng, cấu hình, lắp rắp chúng, Spring Container sẽ đọc thông tin từ các file xml và thực thi chúng.
 - Spring IoC có 2 loại:
     + BeanFactory
     + ApplicationContext
-## 14. 
+
+
+
+
 
