@@ -1,10 +1,10 @@
 ## 1. Java là gì
 Java là một ngôn ngữ lập trình hiện đại, hướng đối tượng, bảo mật, mạnh mẽ.Java là ngôn ngữ phổ biến thế giới được phát triển bởi Sun Microsystems, được ra mắt năm 1995
 Java hỗ trợ chạy trên rất nhiều nên tảng như: Windows,Mac OS,Linux...
- ## 2.OPP trong java (hướng đối tượng)
+ ## 2.OOP trong java (hướng đối tượng)
  - Trừu tượng
  - Kế thừa
- - Đa nhiệm
+ - Đa hình
  - Đóng gói
  ## 3.Tính Kế Thừa trong java
  - là sự liên kết giữa class Cha và class Con,class Con extends class Cha sẽ được hưởng các phương thức hay thuộc tính của class Cha (ở dạng public,protected,ở dạng private thì không được truy cập)
@@ -77,6 +77,19 @@ Java hỗ trợ chạy trên rất nhiều nên tảng như: Windows,Mac OS,Linu
 - Spring IoC có 2 loại:
     + BeanFactory
     + ApplicationContext
+
+## 12. String, StringBuilder và StringBuffer
+- String là immutable (không thay đổi được) ,Nếu chúng ta muốn thay đổi String (ví dụ như nối chuỗi, cắt string thành từng đoạn) thì chúng ta sẽ phải tạo ra một String mới và không sử dụng lại được giá trị String cũ. Giá trị String cũ sẽ bị bộ dọn rác garbage collection của Java xoá đi khỏi bộ nhớ.Chính vì giá trị cũ tồn tại nhiều trong bộ nhớ mỗi lần chúng ta muốn thao tác với String dẫn đến bộ nhớ sẽ bị đầy do chứa nhiều giá trị rác
+- StringBuilder và StringBuffer là mutable (có thể thay đổi giá trị). 2 lớp này cung cấp cho chúng ta các method để thêm,sửa, xóa để thao tác với String.Các lệnh cơ bản trong StringBuilder: append(String s) - Thêm; insert(int offset, String s) - chèn chuỗi; delete(int startIndex, int endIndex) - Xóa
+## 13. Array và ArrayList?
+![Array và ArrayList](hinhanh/ArrayvaArrayList.jpg)
+## 14. ArrayList và LinkedList
+- ArrayList và LinkedList đều được implements từ giao tiếp List
+![ArrayList và LinkedList](hinhanh/ArrayListvaLinkedList.png)
+## 15. ArrayList và Vector?
+![ArrayList và Vector](hinhanh/ArrayListvaVector.png)
+## 16. Collection và Collections là gì?
+Collection là một interface, trong khi Collections là một lớp. Collecion interface cung cấp các chức năng về cấu trức dữ liệu cho List, Set, Queue. Nhưng lớp Collections là để sắp xếp và đồng bộ các phần tử Collection.
 
 
 
