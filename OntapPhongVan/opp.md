@@ -85,9 +85,9 @@ Java hỗ trợ chạy trên rất nhiều nên tảng như: Windows,Mac OS,Linu
 ![Array và ArrayList](hinhanh/ArrayvaArrayList.jpg)
 ## 14. ArrayList và LinkedList
 - ArrayList và LinkedList đều được implements từ giao tiếp List
-![ArrayList và LinkedList](hinhanh/ArrayListvaLinkedList.png)
+![ArrayList và LinkedList](hinhanh/ArrayListvaLinkedList.PNG)
 ## 15. ArrayList và Vector?
-![ArrayList và Vector](hinhanh/ArrayListvaVector.png)
+![ArrayList và Vector](hinhanh/ArrayListvaVector.PNG)
 ## 16. Collection và Collections là gì?
 Collection là một interface, trong khi Collections là một lớp. Collecion interface cung cấp các chức năng về cấu trức dữ liệu cho List, Set, Queue. Nhưng lớp Collections là để sắp xếp và đồng bộ các phần tử Collection.
 
